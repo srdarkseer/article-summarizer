@@ -79,12 +79,12 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.gray_gradient {
+  @apply bg-gradient-to-r from-gray-400 via-gray-300 to-gray-400 bg-clip-text text-gray-400;
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-black sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
