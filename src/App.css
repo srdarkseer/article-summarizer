@@ -4,6 +4,7 @@
 
 .main {
   width: 100vw;
+  background-color: black;
   min-height: 100vh;
   position: fixed;
   display: flex;
@@ -13,7 +14,6 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -71,12 +71,12 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
-.black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+.github_btn {
+  @apply rounded-full border border-black bg-gray-400 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-white sm:text-6xl text-center;
 }
 
 .gray_gradient {
@@ -84,7 +84,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-black sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-lg text-gray-300 sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
