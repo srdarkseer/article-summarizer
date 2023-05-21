@@ -17,7 +17,7 @@ const Hero = () => {
 
       <h1 className="head_text">
         Sumamrize Articles with <br className="max-md:hidden" />
-        <span className="gray_gradient">OpenAI GPT-4</span>
+        <span className="gray_gradient">xyRo-AI</span>
       </h1>
       <h2 className="desc">Use xyRo, an open-source article summarizer, to make reading easier by turning large articles into succinct summaries. </h2>
     </header>
