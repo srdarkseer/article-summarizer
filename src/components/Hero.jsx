@@ -16,10 +16,10 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        Sumamrize Articles with <br className="max-md:hidden" />
-        <span className="gray_gradient">xyRo-AI</span>
+        xyRo <span className="invisible"> </span>
+        <span className="gray_gradient">Article Summarizer</span>
       </h1>
-      <h2 className="desc">Use xyRo, an open-source article summarizer, to make reading easier by turning large articles into succinct summaries. </h2>
+      <h2 className="desc">Make reading simpler by using xyRo to condense lengthy articles into brief summaries. </h2>
     </header>
   );
 };
